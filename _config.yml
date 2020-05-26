@@ -2,8 +2,8 @@
 title: COVID-19 Memorial Run
 description: A 19-mile anytime, all-virtual run to remember COVID-19 victims.
 cover: assets/images/man-jogging-outside-web.jpg
-logo: assets/images/logo.png
-favicon: assets/images/favicon.png
+#logo: assets/images/logo.png
+#favicon: assets/images/favicon.png
 baseurl: "/covid19memorialrun/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://drhyrum.github.io/" # the base hostname & protocol for your site
 
@@ -18,14 +18,14 @@ pagination:
   per_page: 5
 
 # Social
-facebook: facebook
-twitter: twitter
-github:  github
+#facebook: facebook
+twitter: Covid19Run
+#github:  github
 
 #Additional Pages
 about: about
-contact: contact
-privacy-policy: privacy-policy
+#contact: contact
+#privacy-policy: privacy-policy
 
 
 permalink: /:title
