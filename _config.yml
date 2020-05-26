@@ -1,7 +1,7 @@
 # Site settings
 title: COVID-19 Memorial Run
 description: A 19-mile anytime, all-virtual run to remember COVID-19 victims.
-cover: assets/images/man-jogging-outside.jpg
+cover: assets/images/man-jogging-outside-web.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
 baseurl: "/covid19memorialrun/" # the subpath of your site, e.g. /blog/ or / for root
