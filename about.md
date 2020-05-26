@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<amp-img width="600" height="300" layout="responsive" src="assets/images/man-jogging-outside-web.jpg"></amp-img>
+<amp-img width="600" height="300" layout="responsive" src="https://images.app.goo.gl/XsLLsra499RbUwHUA"></amp-img>
 
 ## Running dos and don'ts
 
