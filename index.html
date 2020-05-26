@@ -35,58 +35,170 @@ pagination:
 
 <main id="content" role="main" class="content">
 
-  <div class="cf frame">
-    {% for post in paginator.posts %}
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-        <div class="article-item">
-          <header class="post-header">
-            <h2 class="post-title" itemprop="name"><a href="{{ site.baseurl }}{{ post.url | remove: '/'}}" itemprop="url">{{ post.title }}</a></h2>
-          </header>
-          <section class="post-excerpt" itemprop="description">
-            <p class="post-description">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
-          </section>
-          <div class="post-meta">
-            {% for author in site.data.authors %}
-              {% if author[1].username == post.author %}
-                {% if author[1].assets %}<amp-img width="24" height="24" class="author-thumb" layout="responsive" src="{{ site.baseurl }}{{author[1].assets}}" alt="{{author[1].name}}"/></amp-img>{% endif %}
-                <a href="{{site.baseurl}}authors/#{{author[1].username}}">{{author[1].name}}</a>
-              {% endif %}
-            {% endfor %}
+  <section
+  class='page-section
+    
+      layout-engine-section
+    
+    background-width--full-bleed
+    
+      section-height--small
+    
+    
+      content-width--wide
+    
+    horizontal-alignment--left
+    vertical-alignment--middle
+    
+    light'
+  data-section-id="5e764f89d6f8783baa59dd2e"
+  
+  data-controller="SectionWrapperController, MagicPaddingController"
+  data-current-styles="{
+  &quot;imageOverlayOpacity&quot; : 0.15,
+  &quot;video&quot; : {
+    &quot;playbackSpeed&quot; : 0.5,
+    &quot;filter&quot; : 1,
+    &quot;filterStrength&quot; : 0,
+    &quot;zoom&quot; : 0
+  },
+  &quot;backgroundWidth&quot; : &quot;background-width--full-bleed&quot;,
+  &quot;sectionHeight&quot; : &quot;section-height--small&quot;,
+  &quot;horizontalAlignment&quot; : &quot;horizontal-alignment--left&quot;,
+  &quot;verticalAlignment&quot; : &quot;vertical-alignment--middle&quot;,
+  &quot;contentWidth&quot; : &quot;content-width--wide&quot;,
+  &quot;sectionTheme&quot; : &quot;light&quot;,
+  &quot;sectionAnimation&quot; : &quot;none&quot;,
+  &quot;backgroundMode&quot; : &quot;image&quot;
+}"
+  data-animation="none"
+  
+>
+  <div class="section-background">
+  
+    
+  
+  </div>
+  <div
+    class="content-wrapper"
+    style='
+      
+        
+      
+    '
+  >
+    <div
+      class="content"
+      
+    >
+      
+      
+      <div class="sqs-layout sqs-grid-12 columns-12" data-type="page-section" id="page-section-5e764f89d6f8783baa59dd2e"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="row sqs-row"><div class="col sqs-col-6 span-6"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-ff21131644007bef90c9"><div class="sqs-block-content"><p class="sqsrte-large" style="white-space:pre-wrap;">A “social distancing” distance run </p><ul data-rte-list="default"><li><p class="sqsrte-large" style="white-space:pre-wrap;">Choose your own course and run anytime in May</p></li><li><p class="sqsrte-large" style="white-space:pre-wrap;">19 miles ~ 3/4 marathon</p></li><li><p class="sqsrte-large" style="white-space:pre-wrap;">Run <a href="http://covid19memorial.run/about">safely</a></p></li></ul><p class="sqsrte-large" data-rte-preserve-empty="true" style="white-space:pre-wrap;"></p></div></div></div><div class="col sqs-col-6 span-6"><div class="row sqs-row"><div class="col sqs-col-1 span-1"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-f0be24781e93e35b2b7b"><div class="sqs-block-content">&nbsp;</div></div></div><div class="col sqs-col-5 span-5"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-c600a575a32cffce8341"><div class="sqs-block-content"><p class="sqsrte-large" style="white-space:pre-wrap;">Our purpose is to remember the victims of COVID-19 by breaking off the shackles of self-quarantine in a free, safe, 19-mile run. </p></div></div></div></div></div></div></div></div></div>
+    </div>
+  </div>
+</section>
 
-            {% if post.tags.size > 0 %}
-                in
-                {% for tag in post.tags %}
-                    {% if forloop.index == post.tags.size %}
-                       <a href='{{site.baseurl}}tags/#{{tag}}'>{{ tag | capitalize }}</a>
-                    {% else %}
-                       <a href='{{site.baseurl}}tags/#{{tag}}'>{{ tag | capitalize }}</a>,
-                    {% endif %}
-                {% endfor %}
-            {% endif %}
-              <time class="post-date" datetime="{{ post.date | date:'%Y-%m-%d' }}">{{ post.date | date_to_string }}</time>
-          </div>
-        </div>
-      </article>
-    {% endfor %}
+<!---   -->
+
+<div
+class="content"
+
+>
+
+
+<div class="sqs-layout sqs-grid-12 columns-12" data-type="page-section" id="page-section-5e764f89d6f8783baa59dd30"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block image-block sqs-block-image" data-aspect-ratio="117.43295019157087" data-block-type="5" id="block-7c9eb7511204c33046ba"><div class="sqs-block-content">
+
+
+
+
+
+
+
+
+
+
+
+
+<figure
+    class="
+      sqs-block-image-figure
+      image-block-outer-wrapper
+      image-block-v2
+      design-layout-card
+      combination-animation-collide
+      individual-animation-none
+      individual-text-animation-none
+      image-position-right
+      image-linked
+    "
+    data-scrolled
+    data-test="image-block-v2-outer-wrapper"
+>
+
+  <div class="intrinsic">
+    
+      <div
+    
+        
+        class="
+          
+          image-inset
+          
+            content-fit
+          
+        "
+        data-animation-role="image"
+        data-description=""
+        
+data-animation-override
+
+    >
+      <noscript><img src="https://images.squarespace-cdn.com/content/v1/5d375649e2ffc000016e0aec/1572716064535-TQDLAWAE3QNNULKXJRR4/ke17ZwdGBToddI8pDm48kPStqYQw5z0eEVHUqU29SKd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UasrEahSsMha4UHRxf8js_c86ZoAZbDE31THDCUzgDzshFUuLHnLbCcG43DQ2Zmnuw/20140228_Trade%252B151_0067%252B%25281%2529.jpg" alt="Demonstrate your solidarity while you flatten your curves  - Choose your own course.  Run at your own pace.  Complete in a single run, or over the course of days." /></noscript>
+      <img data-src="https://images.squarespace-cdn.com/content/v1/5d375649e2ffc000016e0aec/1572716064535-TQDLAWAE3QNNULKXJRR4/ke17ZwdGBToddI8pDm48kPStqYQw5z0eEVHUqU29SKd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UasrEahSsMha4UHRxf8js_c86ZoAZbDE31THDCUzgDzshFUuLHnLbCcG43DQ2Zmnuw/20140228_Trade%252B151_0067%252B%25281%2529.jpg" data-image="https://images.squarespace-cdn.com/content/v1/5d375649e2ffc000016e0aec/1572716064535-TQDLAWAE3QNNULKXJRR4/ke17ZwdGBToddI8pDm48kPStqYQw5z0eEVHUqU29SKd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UasrEahSsMha4UHRxf8js_c86ZoAZbDE31THDCUzgDzshFUuLHnLbCcG43DQ2Zmnuw/20140228_Trade%252B151_0067%252B%25281%2529.jpg" data-image-dimensions="1561x1561" data-image-focal-point="0.5,0.5" alt="20140228_Trade%2B151_0067%2B%281%29.jpg"  />
+      <div class="image-overlay"></div>
+    
+      </div>
+    
+
   </div>
 
-  <nav class="pagination" role="navigation">
-    {% if paginator.next_page %}
-      <a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.next_page}}">&larr; Older posts</a>
-    {% else %}
-      <a class="newer-posts disabled">&larr; Older posts</a>
-    {% endif %}
-    <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.previous_page %}
-      {% if paginator.page == 2 %}
-        <a class="older-posts" href="{{ site.baseurl }}/">Newer posts &rarr;</a>
-      {% else %}
-        <a class="older-posts" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer posts &rarr;</a>
-      {% endif %}
-    {% else %}
-      <a class="older-posts disabled">Newer posts &rarr;</a>
-    {% endif %}
-  </nav>
+  
+    
+    <figcaption class="image-card-wrapper" data-width-ratio>
+      <div class="image-card sqs-dynamic-text-container">
+
+        
+          <div class="image-title-wrapper"><div class="image-title sqs-dynamic-text"
+          
+data-animation-override
+><h3 style="white-space:pre-wrap;">Demonstrate your solidarity while you flatten your curves </h3></div></div>
+        
+
+        
+          <div class="image-subtitle-wrapper"><div class="image-subtitle sqs-dynamic-text"
+          
+data-animation-override
+><p class="" style="white-space:pre-wrap;">Choose your own course.  Run at your own pace.  Complete in a single run, or over the course of days.</p></div></div>
+        
+
+        
+          <div class="image-button-wrapper"><div class="image-button sqs-dynamic-text"><div class="image-button-inner">
+            <a href="/about">Learn More</a>
+          </div></div></div>
+        
+
+      </div>
+    </figcaption>
+  
+
+</figure>
+
+
+
+
+
+
+</div></div>
 
 </main>
 
