@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<amp-img width="600" height="300" layout="responsive" src="https://images.app.goo.gl/XsLLsra499RbUwHUA"></amp-img>
+<amp-img width="600" height="300" layout="responsive" src="https://piedmontlifestyle.com/wp-content/uploads/2017/03/man-jogging-outside-web.jpg"></amp-img>
 
 ## Running dos and don'ts
 
